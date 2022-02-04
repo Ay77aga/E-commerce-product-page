@@ -286,7 +286,6 @@ ul li:hover::before {
 .product_view .slid {
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
 
 }
 
@@ -458,6 +457,11 @@ ul li:hover::before {
   .product_view>img,
   header [alt=menu_icon] {
     display: none;
+  }
+
+  .product_view .slid {
+    border-radius: 20px;
+
   }
 
   .imgs {
