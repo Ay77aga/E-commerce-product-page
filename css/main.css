@@ -341,7 +341,6 @@ ul li:hover::before {
 @media (max-width: 767px) {
   .data {
     width: 100%;
-    padding: 0 20px;
   }
 
 
@@ -351,7 +350,6 @@ ul li:hover::before {
 }
 
 .data p {
-  padding: 5px;
   font-size: 16px;
 }
 
@@ -366,7 +364,6 @@ ul li:hover::before {
 .pric {
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px;
   font-weight: bold;
   align-items: center;
 }
@@ -374,6 +371,7 @@ ul li:hover::before {
 .pric p:first-child {
   font-size: 30px;
   position: relative;
+  color: #000;
 }
 
 .pric p:first-child::after {
@@ -498,7 +496,7 @@ ul li:hover::before {
   }
 
   .data {
-    width: 60%;
+    width: 70%;
     margin: 0 30px;
   }
 
