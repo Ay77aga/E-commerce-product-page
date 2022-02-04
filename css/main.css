@@ -342,8 +342,14 @@ ul li:hover::before {
   .data {
     width: 100%;
   }
+  .data{
+    padding: 5px 20px;
+    
+  }
 
-
+  .data p{
+    margin: 15px 5px;
+  }
   .imgs {
     display: none;
   }
@@ -351,6 +357,7 @@ ul li:hover::before {
 
 .data p {
   font-size: 16px;
+    line-height: 1.3;
 }
 
 .data p:first-child {
@@ -504,9 +511,7 @@ ul li:hover::before {
     font-size: 35px;
   }
 
-  .data p {
-    line-height: 1.5;
-  }
+
 
   .count {
     width: 30%;
