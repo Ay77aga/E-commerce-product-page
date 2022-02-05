@@ -38,6 +38,7 @@ for (let i = 1; i <= 4; i++) {
   let t_img = document.createElement('img');
   t_img.src = `imgs/image-product-${i}-thumbnail.jpg`;
   t_img.className = 't_img';
+  t_img.alt = `product-${i}-thumbnail`;
   t_imgs.appendChild(t_img);
   t_img.setAttribute('data-src', `imgs/image-product-${i}.jpg`);
 }
